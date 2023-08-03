@@ -1,8 +1,12 @@
 import TreeWorldPage from "./Components/Pages/TreeWorldPage";
-
+import {GlobalStyle} from './globalStyle'
 function App() {
   return (
-    <TreeWorldPage/>
+      <>
+        <GlobalStyle/>
+        <TreeWorldPage/>
+      </>
+
   );
 }
 
